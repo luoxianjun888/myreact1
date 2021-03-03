@@ -1,0 +1,23 @@
+.list-img{
+    display: block;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+.list-img >img{
+    max-width: 100%;
+    transition: all .5s;
+}
+.list-img >img:hover{
+    transform: scale(1.5);
+}
+.my-anim{
+    animation: h1an 3s ease-in-out infinite;
+}
+
+@keyframes h1an{
+    0%{font-size: 2rem;}
+    50%{font-size: 3rem; color:#f00;}
+    100%{font-size: 2rem;}
+}
+

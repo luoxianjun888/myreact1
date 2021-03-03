@@ -1,0 +1,35 @@
+body{
+    background: radial-gradient(#f8ffae,#43c6ac);
+    background-attachment: fixed;
+}
+.todo-container {
+  width: 700px;
+  margin: 10% auto;
+  background-color: #fff;
+  border:#666 1px solid;
+  border-radius: 10px;
+  padding:20px;
+  box-shadow: 2px 4px 10px rgba(9, 131, 125, 0.5);
+  transition: all .5s;
+}
+.todo-container:hover{
+  box-shadow: 2px 4px 50px rgba(2, 85, 85, 0.5);
+  border-radius: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding:4px 12px;
+    margin-bottom:0;
+    font-size:14px;
+    line-height: center;
+    vertical-align:middle;
+    cursor: pointer;
+    border-radius:4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}
+.btn-danger{
+    color:#fff;
+    background-color:#da4f49;
+    border:1px solid #bd362f;
+}

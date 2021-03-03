@@ -1,0 +1,39 @@
+    .div1 {
+         width: 1060px;
+         height: 550px;
+         margin:4% auto;
+         background: linear-gradient(to right bottom, #5cfcef, #6a82fb); 
+         background-position: 50% 50%;
+         background-size: 100% 100%;
+         padding: 30px;
+         text-align: center;
+         border-radius: 10px;
+         color: #fff;
+         transition: all 0.5s;
+     }
+     .div1:hover{
+         background-size: 200% 200%;
+         width: 1160px;
+     }
+
+     .round{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-column-gap: 20px;
+         margin: 4rem auto;
+     }
+     .imgitem{
+         width: 250px;
+         height: 250px;
+         border-radius: 50%;
+         margin:10px;
+         overflow: hidden;
+         margin: 0 auto;
+     }
+     .imgitem img{
+         max-width: 100%;
+         transition: all .5s;
+     }
+.imgitem img:hover{
+    transform: scale(1.3);
+}

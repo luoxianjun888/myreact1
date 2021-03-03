@@ -1,0 +1,14 @@
+.todo-header{
+  width: 690px;
+  padding:0;
+  margin-bottom: 20px;
+}
+.todo-header > input{
+  width: 100%;
+  border:#aaa 1px solid;
+  padding:10px 5px;
+  border-radius: 5px;
+}
+.todo-header > input{
+  padding: 15px 5px;
+}

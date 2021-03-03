@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="http://mjht.net" onclick="return push('/test1')">链接一</a>
+    
+    <script src="https://cdn.bootcss.com/history/4.7.2/history.js"></script>
+    <script>
+        let history=History.createBrowserHistory()
+        function push(path){
+            history.push(path)
+            return false
+        }
+        history.listen((location)=>{
+            console.log('请求路径变化了',location)
+        })
+    </script>
+</body>
+</html>

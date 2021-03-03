@@ -1,0 +1,48 @@
+     body {
+         background: radial-gradient(#0b8793, #1a2a6c);
+         background-attachment: fixed;
+         color: #fff;
+     }
+     
+     .div1 {
+         width: 1060px;
+         height: 550px;
+         margin:4% auto;
+         background: linear-gradient(to right bottom, #fc5c7d, #6a82fb);
+         background-position: 50% 50%;
+         background-size: 100% 100%;
+         padding: 30px;
+         text-align: center;
+         border-radius: 10px;
+         color: #fff;
+         transition: all 0.5s;
+     }
+     .div1:hover{
+          background-size: 200% 200%;
+         width: 1160px;
+     }
+     .h2 {
+         margin-top: 11% !important;
+         margin-bottom: 38px;
+     }
+     
+     button {
+         padding: .5rem 1rem;
+         border: 2px #fff solid;
+         width: 120px;
+         border-radius: 30px;
+         background: none;
+         color: #fff;
+         font-size: 1.1rem;
+         font-weight: bold;
+         cursor: pointer;
+         transition: all .5s;
+         margin: 0 8px;
+     }
+     
+     button:hover,
+     button:active {
+         border: none;
+         background-color: #fff;
+         color: #fc5c7d;
+     }

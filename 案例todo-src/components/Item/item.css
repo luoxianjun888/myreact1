@@ -1,0 +1,31 @@
+.todo-main li {
+  width: 100%;
+  border: #aaa 1px solid;
+  padding:0 5px;
+  line-height: 44px;
+  height: 44px;
+  border-top-width: 0;
+}
+
+.todo-main li:first-child {
+  border-top-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.todo-main li:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.todo-main li input {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.todo-main li button{
+  float:right;
+  margin-top:7px;
+}
